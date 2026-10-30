@@ -1,0 +1,77 @@
+<mxfile host="65bd71144e">
+    <diagram id="9lMUVhDaiOF_neGQa-x9" name="Страница-1">
+        <mxGraphModel dx="1104" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="O7-Mp2j5iQa-hyRlMdBX-5" edge="1" parent="1" source="O7-Mp2j5iQa-hyRlMdBX-1" style="edgeStyle=none;html=1;" target="O7-Mp2j5iQa-hyRlMdBX-4" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="O7-Mp2j5iQa-hyRlMdBX-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="начало&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="80" width="120" x="320" y="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="O7-Mp2j5iQa-hyRlMdBX-7" edge="1" parent="1" source="O7-Mp2j5iQa-hyRlMdBX-4" style="edgeStyle=none;html=1;" target="O7-Mp2j5iQa-hyRlMdBX-6" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="O7-Mp2j5iQa-hyRlMdBX-4" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Ввод: целевой этаж(N)" vertex="1">
+                    <mxGeometry height="60" width="120" x="320" y="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="O7-Mp2j5iQa-hyRlMdBX-9" edge="1" parent="1" source="O7-Mp2j5iQa-hyRlMdBX-6" style="edgeStyle=none;html=1;" target="O7-Mp2j5iQa-hyRlMdBX-8" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="O7-Mp2j5iQa-hyRlMdBX-6" parent="1" style="whiteSpace=wrap;html=1;" value="текущий этаж = 1" vertex="1">
+                    <mxGeometry height="60" width="120" x="320" y="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="O7-Mp2j5iQa-hyRlMdBX-10" edge="1" parent="1" source="O7-Mp2j5iQa-hyRlMdBX-8" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;rounded=1;curved=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="O7-Mp2j5iQa-hyRlMdBX-11">
+                    <mxGeometry relative="1" x="0.25" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="470" y="350"/>
+                        </Array>
+                        <mxPoint x="470" y="380" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="O7-Mp2j5iQa-hyRlMdBX-8" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="текущий этаж &amp;lt; N?" vertex="1">
+                    <mxGeometry height="80" width="80" x="340" y="310" as="geometry"/>
+                </mxCell>
+                <mxCell id="O7-Mp2j5iQa-hyRlMdBX-13" edge="1" parent="1" source="O7-Mp2j5iQa-hyRlMdBX-11" style="edgeStyle=none;html=1;" target="O7-Mp2j5iQa-hyRlMdBX-12" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="O7-Mp2j5iQa-hyRlMdBX-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="поднять на этаж выше" vertex="1">
+                    <mxGeometry height="60" width="120" x="410" y="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="O7-Mp2j5iQa-hyRlMdBX-15" edge="1" parent="1" source="O7-Mp2j5iQa-hyRlMdBX-12" style="edgeStyle=none;html=1;" target="O7-Mp2j5iQa-hyRlMdBX-14" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="470" y="570"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="O7-Mp2j5iQa-hyRlMdBX-12" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;rounded=0;" value="текущий этаж = текущий этаж + 1" vertex="1">
+                    <mxGeometry height="60" width="120" x="410" y="470" as="geometry"/>
+                </mxCell>
+                <mxCell id="O7-Mp2j5iQa-hyRlMdBX-19" edge="1" parent="1" source="O7-Mp2j5iQa-hyRlMdBX-14" style="edgeStyle=none;html=1;" target="O7-Mp2j5iQa-hyRlMdBX-18" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="O7-Mp2j5iQa-hyRlMdBX-14" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;rounded=0;" value="вы на целевом этаже!" vertex="1">
+                    <mxGeometry height="60" width="120" x="410" y="610" as="geometry"/>
+                </mxCell>
+                <mxCell id="O7-Mp2j5iQa-hyRlMdBX-16" edge="1" parent="1" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="O7-Mp2j5iQa-hyRlMdBX-8" value="">
+                    <mxGeometry height="50" relative="1" width="50" x="-0.2143" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="230" y="560"/>
+                            <mxPoint x="230" y="350"/>
+                        </Array>
+                        <mxPoint x="470" y="560" as="sourcePoint"/>
+                        <mxPoint x="230" y="360" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="O7-Mp2j5iQa-hyRlMdBX-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="нет" vertex="1">
+                    <mxGeometry height="30" width="60" x="410" y="560" as="geometry"/>
+                </mxCell>
+                <mxCell id="O7-Mp2j5iQa-hyRlMdBX-18" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="конец" vertex="1">
+                    <mxGeometry height="80" width="120" x="410" y="700" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

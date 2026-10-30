@@ -1,0 +1,143 @@
+<mxfile host="65bd71144e">
+    <diagram id="htpeH3icfgO80Ad6b4Vs" name="Страница-1">
+        <mxGraphModel dx="1931" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="6CMxxKXCHy3pwgZ-Z3q2-3" edge="1" parent="1" source="6CMxxKXCHy3pwgZ-Z3q2-1" style="edgeStyle=none;html=1;" target="6CMxxKXCHy3pwgZ-Z3q2-2" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6CMxxKXCHy3pwgZ-Z3q2-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="начало" vertex="1">
+                    <mxGeometry height="80" width="120" x="220" y="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="6CMxxKXCHy3pwgZ-Z3q2-5" edge="1" parent="1" source="6CMxxKXCHy3pwgZ-Z3q2-2" style="edgeStyle=none;html=1;" target="6CMxxKXCHy3pwgZ-Z3q2-4" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6CMxxKXCHy3pwgZ-Z3q2-2" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Ввод веса и роста" vertex="1">
+                    <mxGeometry height="60" width="120" x="220" y="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="6CMxxKXCHy3pwgZ-Z3q2-7" edge="1" parent="1" source="6CMxxKXCHy3pwgZ-Z3q2-4" style="edgeStyle=none;html=1;" target="6CMxxKXCHy3pwgZ-Z3q2-6" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6CMxxKXCHy3pwgZ-Z3q2-4" parent="1" style="whiteSpace=wrap;html=1;" value="ИМТ =&amp;nbsp;вес (кг) / (рост (м))²" vertex="1">
+                    <mxGeometry height="60" width="120" x="220" y="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="6CMxxKXCHy3pwgZ-Z3q2-9" edge="1" parent="1" source="6CMxxKXCHy3pwgZ-Z3q2-6" style="edgeStyle=none;html=1;" target="6CMxxKXCHy3pwgZ-Z3q2-8" value="Да">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="360" y="410"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6CMxxKXCHy3pwgZ-Z3q2-13" edge="1" parent="1" source="6CMxxKXCHy3pwgZ-Z3q2-6" style="edgeStyle=none;html=1;" target="6CMxxKXCHy3pwgZ-Z3q2-12" value="нет">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="160" y="410"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6CMxxKXCHy3pwgZ-Z3q2-6" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="ИМТ &amp;gt;= 30" vertex="1">
+                    <mxGeometry height="80" width="80" x="240" y="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="6CMxxKXCHy3pwgZ-Z3q2-11" edge="1" parent="1" source="6CMxxKXCHy3pwgZ-Z3q2-8" style="edgeStyle=none;html=1;" target="6CMxxKXCHy3pwgZ-Z3q2-10" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6CMxxKXCHy3pwgZ-Z3q2-8" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: rgb(0, 0, 0);&quot;&gt;Ожирение&lt;/span&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="300" y="440" as="geometry"/>
+                </mxCell>
+                <mxCell id="6CMxxKXCHy3pwgZ-Z3q2-35" edge="1" parent="1" source="6CMxxKXCHy3pwgZ-Z3q2-10" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="6CMxxKXCHy3pwgZ-Z3q2-31">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6CMxxKXCHy3pwgZ-Z3q2-10" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Вам надо &lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;сесть на &lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;диету&lt;/span&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="300" y="520" as="geometry"/>
+                </mxCell>
+                <mxCell id="6CMxxKXCHy3pwgZ-Z3q2-14" edge="1" parent="1" source="6CMxxKXCHy3pwgZ-Z3q2-12" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="6CMxxKXCHy3pwgZ-Z3q2-15" value="да">
+                    <mxGeometry relative="1" x="0.1667" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="230" y="470"/>
+                        </Array>
+                        <mxPoint x="230" y="490" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6CMxxKXCHy3pwgZ-Z3q2-20" edge="1" parent="1" source="6CMxxKXCHy3pwgZ-Z3q2-12" style="edgeStyle=none;html=1;" target="6CMxxKXCHy3pwgZ-Z3q2-19" value="нет">
+                    <mxGeometry relative="1" x="-0.2" as="geometry">
+                        <Array as="points">
+                            <mxPoint y="470"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6CMxxKXCHy3pwgZ-Z3q2-12" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="ИМТ &amp;gt;= 25" vertex="1">
+                    <mxGeometry height="80" width="80" x="120" y="430" as="geometry"/>
+                </mxCell>
+                <mxCell id="6CMxxKXCHy3pwgZ-Z3q2-18" edge="1" parent="1" source="6CMxxKXCHy3pwgZ-Z3q2-15" style="edgeStyle=none;html=1;" target="6CMxxKXCHy3pwgZ-Z3q2-17" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6CMxxKXCHy3pwgZ-Z3q2-15" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Избыточный &lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;вес&lt;/span&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="170" y="500" as="geometry"/>
+                </mxCell>
+                <mxCell id="6CMxxKXCHy3pwgZ-Z3q2-34" edge="1" parent="1" source="6CMxxKXCHy3pwgZ-Z3q2-17" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="6CMxxKXCHy3pwgZ-Z3q2-31">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6CMxxKXCHy3pwgZ-Z3q2-17" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Вам надо&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;поменьше&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;есть&lt;/span&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="170" y="580" as="geometry"/>
+                </mxCell>
+                <mxCell id="6CMxxKXCHy3pwgZ-Z3q2-21" edge="1" parent="1" source="6CMxxKXCHy3pwgZ-Z3q2-19" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="6CMxxKXCHy3pwgZ-Z3q2-22" value="да">
+                    <mxGeometry relative="1" x="-0.1667" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="70" y="540"/>
+                        </Array>
+                        <mxPoint x="70" y="560" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6CMxxKXCHy3pwgZ-Z3q2-26" edge="1" parent="1" source="6CMxxKXCHy3pwgZ-Z3q2-19" style="edgeStyle=none;html=1;" target="6CMxxKXCHy3pwgZ-Z3q2-25" value="нет">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-140" y="540"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6CMxxKXCHy3pwgZ-Z3q2-19" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="ИМТ &amp;gt;= 18.5" vertex="1">
+                    <mxGeometry height="80" width="80" x="-40" y="500" as="geometry"/>
+                </mxCell>
+                <mxCell id="6CMxxKXCHy3pwgZ-Z3q2-24" edge="1" parent="1" source="6CMxxKXCHy3pwgZ-Z3q2-22" style="edgeStyle=none;html=1;" target="6CMxxKXCHy3pwgZ-Z3q2-23" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6CMxxKXCHy3pwgZ-Z3q2-22" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Нормальный&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;вес&lt;/span&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="10" y="570" as="geometry"/>
+                </mxCell>
+                <mxCell id="6CMxxKXCHy3pwgZ-Z3q2-33" edge="1" parent="1" source="6CMxxKXCHy3pwgZ-Z3q2-23" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="6CMxxKXCHy3pwgZ-Z3q2-31">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6CMxxKXCHy3pwgZ-Z3q2-23" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Вы в&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: normal&quot;&gt;&lt;span style=&quot;text-decoration-line: inherit; background-color: transparent;&quot;&gt;идеальной&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: normal&quot;&gt;&lt;span style=&quot;text-decoration-line: inherit; background-color: transparent;&quot;&gt;форме&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="10" y="650" as="geometry"/>
+                </mxCell>
+                <mxCell id="6CMxxKXCHy3pwgZ-Z3q2-27" edge="1" parent="1" source="6CMxxKXCHy3pwgZ-Z3q2-25" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="6CMxxKXCHy3pwgZ-Z3q2-28" value="да">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-70" y="600"/>
+                        </Array>
+                        <mxPoint x="-70" y="600" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6CMxxKXCHy3pwgZ-Z3q2-25" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="ИМТ &amp;lt; 18.5" vertex="1">
+                    <mxGeometry height="80" width="80" x="-180" y="560" as="geometry"/>
+                </mxCell>
+                <mxCell id="6CMxxKXCHy3pwgZ-Z3q2-30" edge="1" parent="1" source="6CMxxKXCHy3pwgZ-Z3q2-28" style="edgeStyle=none;html=1;" target="6CMxxKXCHy3pwgZ-Z3q2-29" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6CMxxKXCHy3pwgZ-Z3q2-28" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Недостаточный вес" vertex="1">
+                    <mxGeometry height="60" width="120" x="-130" y="630" as="geometry"/>
+                </mxCell>
+                <mxCell id="6CMxxKXCHy3pwgZ-Z3q2-32" edge="1" parent="1" source="6CMxxKXCHy3pwgZ-Z3q2-29" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="6CMxxKXCHy3pwgZ-Z3q2-31">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6CMxxKXCHy3pwgZ-Z3q2-29" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Вам надо&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;побольше&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;есть&lt;/span&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="-130" y="710" as="geometry"/>
+                </mxCell>
+                <mxCell id="6CMxxKXCHy3pwgZ-Z3q2-31" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="конец" vertex="1">
+                    <mxGeometry height="80" width="120" x="150" y="720" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
